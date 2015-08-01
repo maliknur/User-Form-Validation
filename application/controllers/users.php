@@ -5,7 +5,6 @@ class Users extends CI_Controller {
 
     $this->load->helper('security');
     $this->load->library('form_validation');
-    
     $this->load->view('users/new');
   }
 
